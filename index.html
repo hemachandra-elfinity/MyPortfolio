@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <title>External CSS Example</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -15,7 +14,7 @@
       <a href="#skills">skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-
+      <a href="#contact-info">contact-info</a>
     </nav>
     </header>
   <main>
@@ -24,9 +23,9 @@
         <h1>Hello, I'm <span class="highlight">HEMA CHANDRA</span></h1>
         <h2>Full Stack Developer</h2>
         <p>I build fast,responsive and scalable web applications.</p>
-        <a href="#projects" class="btn">view my work</a>
         <a href="/CV_HEMA.pdf" class="btn">resume</a>
         <a href="https://www.linkedin.com/in/yhemachandra/" class="btn">LinkedIn</a>
+        <a href="#projects" class="btn">view my work</a>
       </div>
       
       <div class="home-image">
@@ -75,15 +74,28 @@
       </div>
       </section>
       <section id="contact" class="contact-section">
-            <h2>Contact</h2>
-            <form id="contactForm">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
+        <h2>Contact</h2>
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
             <div id="formMessage"></div>
-          </section>
+      </section>
+      <section id="contact-info" class="contactme-section">
+          <div class="contact-info">
+            <h2>Contact-info</h2>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:your.email@example.com">yhemareddy07@gmail.com</a>
+          </p>
+          <p>
+             <strong>Phone:</strong>
+              <a href="tel:+1234567890">+91 7075138253</a>
+          </p>
+          </div>
+      </section>
   </main>
   <footer>
         <p>&copy; 2025 Hema Chandra</p>
