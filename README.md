@@ -1,6 +1,6 @@
 # Portfolio Project Documentation
 ## 📄Project Overview
-This is a personal portfolio website designed to showcase our skills, projects, and provide a way for visitors to contact you. The project is built using HTML, CSS, and JavaScript. The contact form now displays a thank-you message on submission, but does not send emails or use any backend service.
+This is a personal portfolio website designed to showcase our skills, projects, and provide a way for visitors to contact us. The project is built using HTML, CSS, and JavaScript. The contact form now displays a thank-you message on submission, but does not send emails or use any backend service.
 ## Project Structure
 - ├─ **portfolio.html** - # Main HTML file for the portfolio website
 - ├─**portfolio.css** - # Stylesheet for the portfolio
