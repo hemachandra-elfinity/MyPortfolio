@@ -1,4 +1,6 @@
 # Portfolio Project Documentation
+<img width="1880" height="783" alt="Image" src="https://github.com/user-attachments/assets/1223eb3a-3ed8-4c38-ad14-fbb60ff81ebd" />
+
 ## 📄Project Overview
 This is a personal portfolio website designed to showcase our skills, projects, and provide a way for visitors to contact us. The project is built using HTML, CSS, and JavaScript. The contact form now displays a thank-you message on submission, but does not send emails or use any backend service.
 ## Project Structure
