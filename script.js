@@ -26,7 +26,16 @@ navLinks && navLinks.querySelectorAll('a').forEach(link => {
     });
 });
 
-
+// Real-time phone validation: alert if non-numeric or not 10 digits (if not empty)
+const phoneInput = document.getElementById("phone");
+if (phoneInput) {
+  phoneInput.addEventListener("input", function() {
+    const value = this.value;
+    if (value && (/[^0-9]/.test(value) || value.length > 10)) {
+      alert("❌ Please enter only numbers and ensure the phone number is 10 digits.");
+    }
+  });
+}
 
   document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
