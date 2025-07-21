@@ -76,3 +76,8 @@ When a user submits the contact form on portfolio, their information (name, emai
 
 ## 📸 Screenshots
 <img width="1894" height="866" alt="Image" src="https://github.com/user-attachments/assets/c5353818-a976-4f18-ac5d-c27a665c5a84" />
+
+## 📄 License
+This project is open source and available under the MIT License.
+
+
