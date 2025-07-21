@@ -40,7 +40,7 @@ Netlify – For hosting the live site
 
 ├── images/
 
-│    └── (all your image files)
+│    └── (all image files)
 
 ├── resume.pdf
 
